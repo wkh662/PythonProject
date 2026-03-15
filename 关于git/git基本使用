@@ -1,0 +1,18 @@
+# 1. 查看哪些文件被修改
+git status
+
+# 2. 添加所有变动（包括修改和新文件）
+git add .
+
+# 3. 提交到本地仓库
+git commit -m "优化if逻辑，添加工具函数"
+
+# 4. 推送到 GitHub
+git push
+git status	查看当前工作区状态
+git add .	添加所有变动到暂存区
+git add <文件>	添加指定文件
+git commit -m "说明"	提交暂存区内容到本地仓库
+git push	将本地提交推送到远程仓库
+git pull	从远程仓库拉取最新代码并合并（与他人协作时常用）
+git log	查看提交历史
